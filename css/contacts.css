@@ -1,0 +1,137 @@
+ /* imported for font in sidebar */
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+ /* imported for font in about section */
+ @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+ /* imported for name in about section */
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+ *{
+   margin: 0;
+   padding: 0;
+ }
+ .logo{
+     margin-bottom: 4px;
+     margin-right:2px;
+ }
+ .body{
+     background-color:rgb(232, 231, 231);
+     display: flex;
+ }
+ 
+ .bar{
+     background-color: rgb(152, 151, 151);
+     font-family: "Open Sans", sans-serif;
+     height: 100vh;
+     width: 250px;
+ }
+ 
+ .bar nav{
+     padding: 10px;
+ }
+ 
+ .bar nav li{
+     list-style: none;
+     font-size:27px;
+     padding: 27px;
+ }
+ .bar nav li a{
+     text-decoration: none;
+     color:black;
+ }
+ 
+ .home{
+     display:flex;
+     align-items: center;
+ }
+ .home svg{
+     width:23px;
+     height:23px;
+     margin-right:3px;
+ 
+ }
+ 
+ .about{
+     display:flex;
+     align-items: center;
+ }
+ .about svg{
+     width:24px;
+     height:24px;
+     margin-right:3px;
+ 
+ }
+ 
+ .skills{
+     display:flex;
+     align-items: center;
+ }
+ .skills svg{
+     width:23px;
+     height:23px;
+     margin-right:3px;
+ 
+ }
+ 
+ .projects{
+     display:flex;
+     align-items: center;
+ }
+ .projects svg{
+     width:23px;
+     height:23px;
+     margin-right:3px;
+ 
+ }
+ 
+ .resume{
+     display:flex;
+     align-items: center;
+ }
+ .resume svg{
+     width:23px;
+     height:23px;
+     margin-right:3px;
+ 
+ }
+ .nav_link{
+     position: relative;
+     transition: all 0.4s;
+ }
+ .nav_link:hover{
+     color:rgb(247, 241, 241);
+ }
+ .nav_link::after{
+     content:'';
+     height:2px;
+     width:100%;
+     background:rgb(3, 99, 140);
+     position:absolute;
+     left:0;
+     bottom:-2px;
+     opacity:0;
+     transition: all 0.4s;
+     pointer-events:none;
+ }
+ .nav_link:hover::after{
+    opacity:1;
+ }
+ 
+ .main{
+     display:flex;
+     background-color: rgb(232, 231, 231);
+     width: 80vw;
+ }
+
+ .contact{
+    font-family: "Open Sans", sans-serif;
+     
+ }
+ 
+.contact h1{
+    text-align: center;
+}
+.contact form{
+    padding-left: 20px;
+}
+ 
+
+ 

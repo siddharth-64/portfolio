@@ -1,0 +1,1 @@
+// alert("Teri maa ki chut");

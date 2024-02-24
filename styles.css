@@ -1,0 +1,239 @@
+ /* imported for font in sidebar */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* imported for font in about section */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+/* imported for name in about section */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo{
+    margin-bottom: 4px;
+    margin-right:2px;
+}
+.body{
+    background-color:rgb(232, 231, 231);
+    display: flex;
+}
+
+.bar{
+    background-color: rgb(152, 151, 151);
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    width: 250px;
+}
+
+.bar nav{
+    padding: 10px;
+}
+
+.bar nav li{
+    list-style: none;
+    font-size:27px;
+    padding: 27px;
+}
+.bar nav li a{
+    text-decoration: none;
+    color:black;
+}
+
+.home{
+    display:flex;
+    align-items: center;
+}
+.home svg{
+    width:23px;
+    height:23px;
+    margin-right:3px;
+
+}
+
+.about{
+    display:flex;
+    align-items: center;
+}
+.about svg{
+    width:24px;
+    height:24px;
+    margin-right:3px;
+
+}
+
+.skills{
+    display:flex;
+    align-items: center;
+}
+.skills svg{
+    width:23px;
+    height:23px;
+    margin-right:3px;
+
+}
+
+.projects{
+    display:flex;
+    align-items: center;
+}
+.projects svg{
+    width:23px;
+    height:23px;
+    margin-right:3px;
+
+}
+
+.resume{
+    display:flex;
+    align-items: center;
+}
+.resume svg{
+    width:23px;
+    height:23px;
+    margin-right:3px;
+
+}
+.nav_link{
+    position: relative;
+    transition: all 0.4s;
+}
+.nav_link:hover{
+    color:rgb(247, 241, 241);
+}
+.nav_link::after{
+    content:'';
+    height:2px;
+    width:100%;
+    background:rgb(3, 99, 140);
+    position:absolute;
+    left:0;
+    bottom:-2px;
+    opacity:0;
+    transition: all 0.4s;
+    pointer-events:none;
+}
+.nav_link:hover::after{
+   opacity:1;
+}
+.main{
+    display:flex;
+    background-color:rgb(232, 231, 231);
+    width: 80vw;
+    height:100vh;
+}
+
+.info{
+    height: 60vh;
+    width: 80vw;
+    margin: 160px auto;
+    display: flex;
+    
+    flex-direction: column;
+    padding: 20px 0px 0px 20px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+
+.hello{
+    font-size: 25px;
+ 
+}
+.name{
+    font-size: 37px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+.about{
+    font-size: 28px;
+}
+.moreabout{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    margin-top:40px;
+    margin-left:15px;
+}
+.buttons button{
+    padding: 3px 5px;
+    border-radius: 25px;
+    background-color: rgb(221, 214, 214);
+    color: black;
+    font-weight: bold;
+    margin:0 15px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color:white;
+    color:rgb(8, 126, 244);
+}
+
+.pic img{
+    margin-top:145px;
+    margin-right: 100px;
+    padding: 20px;
+    height: 60vh;
+    border-radius: 50%;
+}
+.contact{
+    margin-top: 20px;
+}
+.email{
+   width:300px;
+   height: 50px;
+   background-color: rgb(221, 214, 214);
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   border-radius:20px;
+
+}
+.email:hover{
+    background-color: white;
+    color: rgb(8, 126, 244);
+}
+.email svg{
+    width:25px;
+    height:25px;
+    margin-right: 4px;
+}
+.email a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.email a:hover{
+     color: rgb(8, 126, 244);
+}
+.social{
+   width:300px;
+   height: 50px;
+   margin-top: 10px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 20px;
+}
+
+.social a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.social a:hover{
+    color: rgb(8, 126, 244);
+}
+.linkedin{
+    margin-right:60px;
+    
+}
+.linkedin svg{
+    width: 20px;
+    height:20px;
+    margin-bottom: 7px;
+}
+.github svg{
+    width: 23px;
+    height:23px;
+    margin-bottom: 7px;
+}
